@@ -1,7 +1,9 @@
 {
     "extends": "@deroll/tsconfig/base.json",
     "compilerOptions": {
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
+        "moduleResolution": "nodenext",
+        "module": "NodeNext"
     },
     "include": ["."],
     "exclude": ["dist", "build", "node_modules"]
